@@ -1,0 +1,158 @@
+@font-face {
+  font-family: 'roboto';
+  src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: 'roboto-thick';
+  src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'journey';
+  src: url(fonts/Journey-Planner/Journey-Planner.ttf);
+}
+
+@font-face {
+  font-family: 'student';
+  src: url(fonts/happystudent.ttf);
+}
+
+* {box-sizing:border-box}
+
+a {
+  color: #539E9A;
+  /* text-decoration: none; */
+}
+
+body {
+  margin: 4vw;
+  background-color: #DBB736;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 450%;
+  font-family: journey;
+  text-shadow:
+   -3px -3px 0 #FDFFFC,
+    3px -3px 0 #FDFFFC,
+    -3px 3px 0 #FDFFFC,
+     3px 3px 0 #FDFFFC;
+  text-align: center;
+  text-decoration: none;
+}
+
+h2 {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-size: 300%;
+  font-family: student;
+  letter-spacing: 0.1em;
+  color:#40434E;
+}
+
+h3 {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-size: 250%;
+  font-family: student;
+  letter-spacing: 0.1em;
+  color:#40434E;
+}
+
+h4 {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-size: 180%;
+  font-family: student;
+  letter-spacing: 0.2em;
+  color:#40434E;
+}
+
+p {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-size: 150%;
+  font-family: roboto;
+  color:#40434E;
+}
+
+ul,ol {
+  padding-right: 1vw;
+  font-size: 150%;
+  font-family: roboto;
+  color:#40434E;
+
+}
+
+.section {
+  padding-top: 0.75vw;
+  padding-bottom: 0.75vw;
+  padding-right: 0.75vw;
+  padding-left: 0.75vw;
+  background-color: #FDFFFC;
+}
+
+.heading {
+  text-decoration: none;
+  color: #40434E;
+}
+
+#navbar {
+  width: 100%;
+  background-color: #DBB736;
+  text-align: center;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #DBB736;
+  text-align: center;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbartext {
+  padding: 2vw;
+  font-size: 180%;
+  font-family: student;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  color: #40434E;
+}
+
+.navbartext:hover {
+  transition: 1s;
+  background-color: #FDFFFC;
+}
+
+.dot {
+  bottom: 3vw;
+  right:5vw;
+  height: 10vh;
+  width: 10vh;
+  background-color: #FF5959;
+  border-radius: 50%;
+  display: inline-block;
+  position: fixed;
+}
+
+/* .arrow {
+  bottom: 6vw;
+  right:8.5vw;
+  border: solid #40434E;
+  border-width: 0 1vh 1vh 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkin-transform: rotate(-135deg);
+  position: fixed;
+} */
