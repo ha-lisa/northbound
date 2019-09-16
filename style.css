@@ -121,7 +121,7 @@ ul,ol {
 }
 
 .navbartext {
-  padding: 2vw;
+  padding: 1vw;
   font-size: 180%;
   font-family: student;
   letter-spacing: 0.1em;
@@ -130,8 +130,11 @@ ul,ol {
 }
 
 .navbartext:hover {
-  transition: 1s;
-  background-color: #FDFFFC;
+  transition: 0.5s;
+  color: #FDFFFC;
+  /* border-radius: 5px; */
+  border-bottom: 0.2em solid #FDFFFC;
+  /* background-color: #FDFFFC; */
 }
 
 .dot {
