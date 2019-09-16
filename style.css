@@ -116,16 +116,18 @@ ul,ol {
 
 .sticky {
   position: fixed;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
   top: 0;
   width: 100%;
 }
 
 .navbartext {
   padding: 1vw;
-  font-size: 170%;
+  font-size: 150%;
   font-family: navbartext;
-  letter-spacing: 0.05em;
-  word-spacing: 0.001em;
+  /* letter-spacing: 0.05em;
+  word-spacing: 0.001em; */
   text-decoration: none;
   color: #40434E;
 }
