@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  font-family: 'roboto-thick';
-  src: url(fonts/Roboto-Regular.ttf);
+  font-family: 'navbartext';
+  src: url(fonts/cheese.ttf);
 }
 
 @font-face {
@@ -15,7 +15,7 @@
 
 @font-face {
   font-family: 'student';
-  src: url(fonts/happystudent.ttf);
+  src: url(fonts/CH.ttf);
 }
 
 * {box-sizing:border-box}
@@ -122,9 +122,10 @@ ul,ol {
 
 .navbartext {
   padding: 1vw;
-  font-size: 180%;
-  font-family: student;
-  letter-spacing: 0.1em;
+  font-size: 170%;
+  font-family: navbartext;
+  letter-spacing: 0.05em;
+  word-spacing: 0.001em;
   text-decoration: none;
   color: #40434E;
 }
@@ -159,3 +160,46 @@ ul,ol {
   -webkin-transform: rotate(-135deg);
   position: fixed;
 } */
+
+/*FORM (CONTACT ME)*/
+input[type=text],select,textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: roboto;
+  font-size: 150%;
+}
+
+label {
+  font-family: student;
+  color: #40434E;
+  font-size: 200%;
+  letter-spacing: 0.25vw;
+}
+
+input[type=submit] {
+  background-color: #40434E;
+  font-family: navbartext;
+  font-size: 150%;
+  color: #FDFFFC;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  transition: 0.5s;
+  background-color: #539E9A;
+  color: #FDFFFC;
+}
+
+.container {
+  background-color: #DBB736;
+  padding: 1vw;
+}
