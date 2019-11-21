@@ -102,13 +102,13 @@ ul,ol {
   color: #40434E;
 }
 
-#navbar {
+#navbar, #navbar2 {
   width: 100%;
   background-color: #DBB736;
   text-align: center;
 }
 
-.navbar {
+.navbar, {
   width: 100%;
   background-color: #DBB736;
   text-align: center;
