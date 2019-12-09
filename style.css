@@ -27,7 +27,7 @@ a {
 
 body {
   margin: 4vw;
-  background-color: #DBB736;
+  background-color: #B3E0E1  ;
 }
 
 html {
@@ -37,11 +37,11 @@ html {
 h1 {
   font-size: 450%;
   font-family: journey;
-  text-shadow:
+  /* text-shadow:
    -3px -3px 0 #FDFFFC,
     3px -3px 0 #FDFFFC,
     -3px 3px 0 #FDFFFC,
-     3px 3px 0 #FDFFFC;
+     3px 3px 0 #FDFFFC; */
   text-align: center;
   text-decoration: none;
 }
@@ -104,22 +104,22 @@ ul,ol {
 
 #navbar, #navbar2 {
   width: 100%;
-  background-color: #DBB736;
+  background-color: #B3E0E1 ;
   text-align: center;
 }
 
-.navbar, {
+.navbar {
   width: 100%;
-  background-color: #DBB736;
+  background-color: #D5F4F5;
   text-align: center;
 }
 
 .sticky {
   position: fixed;
-  padding-top: 1vw;
-  padding-bottom: 1vw;
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+  padding-right: 4vw;
   top: 0;
-  width: 100%;
 }
 
 .navbartext {
